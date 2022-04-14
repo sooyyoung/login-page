@@ -1,0 +1,181 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f2f2f2;
+}
+/* layout : login-box */
+.login-box {
+    width: 500px;
+    height: 240px;
+    margin: 300px auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.weniv-logo {
+    width: 138px;
+    height: 40px;
+    margin: 30px auto;
+}
+.login-txt {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.login-link {
+    width: 440px;
+    height: 60px;
+    display: block;
+    margin: 30px;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #2f80ed;
+}
+
+/* layout : modal-box */
+.modal-box {
+    width: 520px;
+    height: 712px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    top: -800px;  /* 임시 고정 */
+}
+.login-head {
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.close {
+    position: absolute;
+    top: 22px;
+    left: 480px;
+}
+.close img {
+    width: 16px;
+    height: 16px;
+}
+.login-wrap {
+    padding: 24px;
+}
+.main-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.userID, .userPW {
+    width: 472px;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #767676;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.check-box {
+    cursor: pointer;
+    line-height: 22px;
+    margin-top: 7px;
+    
+}
+.check-box::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 8px;
+    background: url('image/check-box.png') -10px -10px no-repeat;
+} 
+.login-btn {
+    width: 472px;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #2f80ed;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.joinFind {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.joinFind a {
+    font-size: 14px;
+    color: #767676;
+}
+.joinFind .join::after {
+    content: '';
+    display: inline-block;
+    margin: 0 12px;
+    width: 1px;
+    height: 14px;
+    vertical-align: middle;
+    background-color: #767676;
+}
+.or {
+    height: 18px;
+    font-size: 14px;
+    color: #767676;
+    text-align: center;
+    position: relative;
+}
+.or::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 210px;
+    height: 1px;
+    margin-right: 13px;
+    background-color: #c4c4c4;
+}
+.or::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 210px;
+    height: 1px;
+    margin-left: 13px;
+    background-color: #c4c4c4;
+}
+.sns-box {
+    margin: 20px 0;
+}
+.sns-btn {
+    width: 472px;
+    height: 50px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 50px;
+    text-align: center;
+    color: #767676;
+    margin: 10px 0;
+    border: 1px solid #767676;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+}
