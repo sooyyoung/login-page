@@ -52,7 +52,6 @@ body {
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-    top: -800px;  /* 임시 고정 */
 }
 .login-head {
     width: auto;
@@ -94,6 +93,7 @@ body {
     cursor: pointer;
     line-height: 22px;
     margin-top: 7px;
+    color: #767676;
     
 }
 .check-box::before {
@@ -174,8 +174,64 @@ body {
     text-align: center;
     color: #767676;
     margin: 10px 0;
-    border: 1px solid #767676;
     box-sizing: border-box;
     border-radius: 5px;
     background-color: #fff;
+    position: relative;
+}
+.google-login {
+    border: 1px solid #767676;
+}
+.google-login::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -14px;
+    background: url(image/sns.png) -10px -10px;
+}
+.facebook-login {
+    border: 1px solid #2D9CDB;
+}
+.facebook-login::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -14px;
+    background: url(image/sns.png) -58px -10px;
+}
+.naver-login {
+    border: 1px solid #00BF18;
+}
+.naver-login::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -14px;
+    background: url(image/sns.png) -10px -58px;
+}
+.kakao-login {
+    border: 1px solid #F2C94C;
+}
+.kakao-login::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -14px;
+    background: url(image/sns.png) -58px -58px;
 }
