@@ -94,21 +94,34 @@ body {
     padding: 15px;
     margin-bottom: 10px;
 }
-.check-box {
-    cursor: pointer;
-    line-height: 22px;
-    margin-top: 7px;
-    color: #767676;
-    
+.userPW {
+    margin-bottom: 17px;
 }
-.check-box::before {
+.check-box-hide {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+.check-box-hold {
+    cursor: pointer;
+    color: #767676;
+    vertical-align: middle;
+}
+.check-box-hold::before {
     content: '';
     width: 22px;
     height: 22px;
     float: left;
     margin-right: 8px;
-    background: url('image/check-box.png') -10px -10px no-repeat;
+    background: url('image/check-box.png') -10px -10px;
 } 
+.check-box-hide:checked+.check-box-hold::before {
+    background: url('image/check-box.png') -52px -10px;
+}
+
 .login-btn {
     width: 472px;
     height: 50px;
