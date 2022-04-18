@@ -11,12 +11,12 @@
     <article class="login-box">
         <h2 class="weniv-logo"><img src="image/weniv-logo.png" alt="위니브로고"></h2>
         <p class="login-txt">위니브를 더 즐겁고 편리하게 이용하세요.</p>
-        <a href="#" class="login-link">로그인</a>
+        <a href="#" class="login-link" onclick="modalOpen()">로그인</a>
     </article>
     <!-- modal -->
     <article class="modal-box">
         <h2 class="login-head">로그인 또는 회원가입</h2>
-        <a href="#" class="close"><img src="image/close.png" alt="창닫기"></a>
+        <a href="#" class="close" onclick="modalClose()"><img src="image/close.png" alt="창닫기"></a>
         <div class="login-wrap">
             <p class="main-text">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
             <form action="#" method="post">
@@ -38,5 +38,15 @@
             </div>
         </div>
     </article>
+
+    <script>
+        function modalOpen() {
+            document.querySelector('.modal-box').style.display = 'block';
+        }
+        function modalClose() {
+            document.querySelector('.modal-box').style.display = 'none';
+        }
+
+    </script>
 </body>
 </html>
