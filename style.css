@@ -8,6 +8,7 @@ a {
 }
 body {
     background-color: #f2f2f2;
+    position: relative;
 }
 /* layout : login-box */
 .login-box {
@@ -51,7 +52,11 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #fff;
-    position: relative;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -260px;
+    display: none;
 }
 .login-head {
     width: auto;
