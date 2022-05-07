@@ -8,16 +8,19 @@
     background-color: #fff;
     box-sizing: border-box;
 }
+
 .weniv-logo {
     width: 138px;
     height: 40px;
     margin: 30px auto;
 }
+
 .login-txt {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
 }
+
 .login-link {
     width: 440px;
     height: 60px;
@@ -46,31 +49,36 @@
     margin-left: -260px;
     display: none;
 }
+
 .login-head {
     width: auto;
     text-align: center;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     padding: 20px;
     border-bottom: 1px solid #c4c4c4;
 }
+
 .close {
+    width: 16px;
+    height: 16px;
     position: absolute;
     top: 22px;
     left: 480px;
+    background: url(image/close.png);
+    background-size: 16px;
 }
-.close img {
-    width: 16px;
-    height: 16px;
-}
+
 .login-wrap {
     padding: 24px;
 }
+
 .main-text {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 24px;
 }
+
 .userID, .userPW {
     width: 472px;
     height: 50px;
@@ -82,9 +90,11 @@
     padding: 15px;
     margin-bottom: 10px;
 }
+
 .userPW {
     margin-bottom: 17px;
 }
+
 .check-box-hide {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -93,11 +103,13 @@
     margin: -1px;
     overflow: hidden;
 }
+
 .check-box-hold {
     cursor: pointer;
     color: #767676;
     vertical-align: middle;
 }
+
 .check-box-hold::before {
     content: '';
     width: 22px;
@@ -106,10 +118,12 @@
     margin-right: 8px;
     background: url('image/check-box.png') -10px -10px;
 } 
+
 .check-box-hide:focus+.check-box-hold::before {
     outline: 2px solid #000;
     outline-offset: 3px;
 }
+
 .check-box-hide:checked+.check-box-hold::before {
     background: url('image/check-box.png') -52px -10px;
 }
@@ -126,15 +140,17 @@
     color: #fff;
     cursor: pointer;
 }
+
 .joinFind {
-    width: 100%;
     margin-bottom: 30px;
     text-align: center;
 }
+
 .joinFind a {
     font-size: 14px;
     color: #767676;
 }
+
 .joinFind .join::after {
     content: '';
     display: inline-block;
@@ -144,13 +160,16 @@
     vertical-align: middle;
     background-color: #767676;
 }
+
 .or {
     height: 18px;
     font-size: 14px;
     color: #767676;
     text-align: center;
     position: relative;
+    display: block;
 }
+
 .or::before {
     content: '';
     position: absolute;
@@ -161,6 +180,7 @@
     margin-right: 13px;
     background-color: #c4c4c4;
 }
+
 .or::after {
     content: '';
     position: absolute;
@@ -171,9 +191,11 @@
     margin-left: 13px;
     background-color: #c4c4c4;
 }
+
 .sns-box {
     margin: 20px 0;
 }
+
 .sns-btn {
     width: 472px;
     height: 50px;
@@ -189,59 +211,46 @@
     background-color: #fff;
     position: relative;
 }
+
+.sns-btn::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -14px;
+}
+
 .google-login {
     border: 1px solid #767676;
 }
+
 .google-login::before {
-    content: '';
-    width: 28px;
-    height: 28px;
-    float: left;
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    margin-top: -14px;
     background: url(image/sns.png) -10px -10px;
 }
+
 .facebook-login {
     border: 1px solid #2D9CDB;
 }
+
 .facebook-login::before {
-    content: '';
-    width: 28px;
-    height: 28px;
-    float: left;
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    margin-top: -14px;
     background: url(image/sns.png) -58px -10px;
 }
+
 .naver-login {
     border: 1px solid #00BF18;
 }
+
 .naver-login::before {
-    content: '';
-    width: 28px;
-    height: 28px;
-    float: left;
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    margin-top: -14px;
     background: url(image/sns.png) -10px -58px;
 }
+
 .kakao-login {
     border: 1px solid #F2C94C;
 }
+
 .kakao-login::before {
-    content: '';
-    width: 28px;
-    height: 28px;
-    float: left;
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    margin-top: -14px;
     background: url(image/sns.png) -58px -58px;
 }
