@@ -65,7 +65,7 @@
     position: absolute;
     top: 22px;
     left: 480px;
-    background: url(image/close.png);
+    background: url(../image/close.png);
     background-size: 16px;
 }
 
@@ -116,7 +116,7 @@
     height: 22px;
     float: left;
     margin-right: 8px;
-    background: url('image/check-box.png') -10px -10px;
+    background: url('../image/check-box.png') -10px -10px;
 } 
 
 .check-box-hide:focus+.check-box-hold::before {
@@ -125,7 +125,7 @@
 }
 
 .check-box-hide:checked+.check-box-hold::before {
-    background: url('image/check-box.png') -52px -10px;
+    background: url('../image/check-box.png') -52px -10px;
 }
 
 .login-btn {
@@ -228,7 +228,7 @@
 }
 
 .google-login::before {
-    background: url(image/sns.png) -10px -10px;
+    background: url(../image/sns.png) -10px -10px;
 }
 
 .facebook-login {
@@ -236,7 +236,7 @@
 }
 
 .facebook-login::before {
-    background: url(image/sns.png) -58px -10px;
+    background: url(../image/sns.png) -58px -10px;
 }
 
 .naver-login {
@@ -244,7 +244,7 @@
 }
 
 .naver-login::before {
-    background: url(image/sns.png) -10px -58px;
+    background: url(../image/sns.png) -10px -58px;
 }
 
 .kakao-login {
@@ -252,5 +252,5 @@
 }
 
 .kakao-login::before {
-    background: url(image/sns.png) -58px -58px;
+    background: url(../image/sns.png) -58px -58px;
 }
